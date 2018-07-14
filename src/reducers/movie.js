@@ -11,7 +11,7 @@ const initialState = {
 };
 
 const reducers = {
-  [actions.CREATE_OFFERS_LIST_ITEM]: (state, action) => {
+  [actions.CREATE_MOVIE_LIST_ITEM]: (state, action) => {
     const { list } = state;
     const nextItem = {
       id: uuidv1(),
@@ -26,7 +26,7 @@ const reducers = {
       item: {}
     };
   },
-  [actions.READ_OFFERS_LIST_ITEM]: (state, action) => {
+  [actions.READ_MOVIE_LIST_ITEM]: (state, action) => {
     const { id } = action.payload;
     const { list } = state;
 
@@ -35,7 +35,7 @@ const reducers = {
       item: list.find((next) => next.id === id)
     };
   },
-  [actions.UPDATE_OFFERS_LIST_ITEM]: (state, action) => {
+  [actions.UPDATE_MOVIE_LIST_ITEM]: (state, action) => {
     const { payload } = action;
     const { list } = state;
     const index = list.findIndex((next) => next.id === payload.id);
@@ -53,7 +53,7 @@ const reducers = {
       item: nextItem
     };
   },
-  [actions.DELETE_OFFERS_LIST_ITEM]: (state, action) => {
+  [actions.DELETE_MOVIE_LIST_ITEM]: (state, action) => {
     const { id } = action.payload;
     const { list } = state;
     const index = list.findIndex((next) => next.id === id);

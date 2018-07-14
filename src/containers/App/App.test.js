@@ -10,7 +10,7 @@ describe('containers/App', () => {
   configure({ adapter: new Adapter() });
 
   const initialState = {
-    offer: {
+    movie: {
       list: listData,
       item: {}
     }

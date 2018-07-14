@@ -1,1 +1,1 @@
-export * from 'actions/offers';
+export * from 'actions/movie';

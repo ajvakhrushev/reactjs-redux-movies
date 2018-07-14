@@ -1,1 +1,1 @@
-export * from 'services/offerVaildation';
+export * from 'services/movieVaildation';

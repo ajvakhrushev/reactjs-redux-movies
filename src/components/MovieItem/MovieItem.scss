@@ -1,8 +1,8 @@
 @import 'styles/variables.scss';
 
-.offer-list__container {
+.movie-list__container {
 
-  .offer-form {
+  .movie-form {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -37,31 +37,9 @@
         min-width: 100%;
       }
 
-      .offer-form__field {
+      .movie-form__field {
         display: flex;
         flex-direction: row;
-
-        &.field-price {
-          display: flex;
-          flex: 1 1 180px;
-          min-width: 180px;
-          padding-right: 20px;
-
-          > div {
-            width: 100%;
-          }
-        }
-
-        &.field-currency {
-          display: flex;
-          flex: 0 0 100px;
-          min-width: 100px;
-
-          > div {
-            width: 100%;
-          }
-        }
-
       }
 
     }

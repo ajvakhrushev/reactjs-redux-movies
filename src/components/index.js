@@ -1,4 +1,4 @@
-export * from 'components/OfferItem/OfferItem.jsx';
-export * from 'components/OfferList/OfferList.jsx';
-export * from 'components/OfferListItem/OfferListItem.jsx';
+export * from 'components/TableHead/TableHead.jsx';
+export * from 'components/MovieItem/MovieItem.jsx';
+export * from 'components/MovieList/MovieList.jsx';
 export * from 'components/PageNotFound/PageNotFound.jsx';

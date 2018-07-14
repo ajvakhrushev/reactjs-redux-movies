@@ -1,0 +1,4 @@
+export const CREATE_MOVIE_LIST_ITEM = 'fetchList/CREATE_MOVIE_LIST_ITEM';
+export const READ_MOVIE_LIST_ITEM = 'fetchList/READ_MOVIE_LIST_ITEM';
+export const UPDATE_MOVIE_LIST_ITEM = 'fetchList/UPDATE_MOVIE_LIST_ITEM';
+export const DELETE_MOVIE_LIST_ITEM = 'fetchList/DELETE_MOVIE_LIST_ITEM';

@@ -13,14 +13,14 @@ import './index.scss';
 
 const persistConfig = {
   storage: localForage,
-  whitelist: ['offer']
+  whitelist: ['movie']
 };
 
 getStoredState(persistConfig).then((restoredState) => {
 
-  if(!restoredState.offer) {
+  if(!restoredState.movie) {
     restoredState = {
-      offer: {
+      movie: {
         list: listData,
         item: {}
       }

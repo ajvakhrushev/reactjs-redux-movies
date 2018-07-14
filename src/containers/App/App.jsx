@@ -21,11 +21,11 @@ class AppClass extends Component {
         <AppBar position="static">
           <Toolbar className="header-nav">
             <nav>
-              <Link to="/offer/list">
-                <Button color="inherit">Offers</Button>
+              <Link to="/movie/list">
+                <Button color="inherit">Movie list</Button>
               </Link>
-              <Link to="/offer/create">
-                <Button color="inherit">Create offer</Button>
+              <Link to="/movie/create">
+                <Button color="inherit">Create movie</Button>
               </Link>
             </nav>
           </Toolbar>

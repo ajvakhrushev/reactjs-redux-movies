@@ -3,14 +3,14 @@ import { configure, shallow } from 'enzyme';
 import { createBrowserHistory } from 'history';
 import configureStore from 'store/configureStore';
 import Adapter from 'enzyme-adapter-react-16';
-import { OfferList } from 'containers/OfferList/OfferList.jsx';
+import { MovieList } from 'containers/MovieList/MovieList.jsx';
 import listData from 'mocks/list.json';
 
-describe('components/OfferList', () => {
+describe('components/MovieList', () => {
   configure({ adapter: new Adapter() });
 
   const initialState = {
-    offer: {
+    movie: {
       list: listData,
       item: {}
     }
@@ -19,6 +19,6 @@ describe('components/OfferList', () => {
   const store = configureStore(initialState, history);
 
   it('renders without crashing', () => {
-    shallow(<OfferList store={store}/>);
+    shallow(<MovieList store={store}/>);
   });
 });

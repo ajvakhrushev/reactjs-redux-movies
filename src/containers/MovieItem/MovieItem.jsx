@@ -1,11 +1,11 @@
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 import * as actions from 'actions';
-import { OfferItem as OfferItemComponent } from 'components/OfferItem/OfferItem.jsx';
-import 'components/OfferItem/OfferItem.scss';
+import { MovieItem as MovieItemComponent } from 'components/MovieItem/MovieItem.jsx';
+import 'components/MovieItem/MovieItem.scss';
 
 const mapStateToProps = (state) => {
-  const { item, strategy } = state.offer;
+  const { item, strategy } = state.movie;
   
   return {
     item,
@@ -14,27 +14,20 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-  const url = '/offer/list';
+  const url = '/movie/list';
 
   return {
     create: (data = {}) => {
       dispatch({
-        type: actions.CREATE_OFFERS_LIST_ITEM,
+        type: actions.CREATE_MOVIE_LIST_ITEM,
         payload: data
       });
       dispatch(push(url));
     },
     update: (data = {}) => {
       dispatch({
-        type: actions.UPDATE_OFFERS_LIST_ITEM,
+        type: actions.UPDATE_MOVIE_LIST_ITEM,
         payload: data
-      });
-      dispatch(push(url));
-    },
-    $delete: (id) => {
-      dispatch({
-        type: actions.DELETE_OFFERS_LIST_ITEM,
-        payload: { id }
       });
       dispatch(push(url));
     },
@@ -42,7 +35,7 @@ const mapDispatchToProps = (dispatch) => {
   };
 }
 
-export const OfferItem = connect(
+export const MovieItem = connect(
   mapStateToProps, 
   mapDispatchToProps
-)(OfferItemComponent);
+)(MovieItemComponent);

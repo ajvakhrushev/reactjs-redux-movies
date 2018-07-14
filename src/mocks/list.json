@@ -1,61 +1,177 @@
 [
   {
-    "id": "c482b0fb-ca01-4200-ba10-61a16f8597ae",
-    "name": "Acer computer",
-    "category": "computers",
-    "description": "he Extensa provides up to 7 hours1 of unplugged, on-the-go power, keeping you connected and productive all day. Access files on all your devices with AcerCloud. Carry with comfort: The Acer Extensa is one of the slimmest laptops in its class and features an easy-grip design.",
-    "productName": "Acer all-in-one",
-    "retailerUrl": "http://www.dell.com/ua/p/xps-13-9360-laptop/pd?ref=PD_Family",
-    "productBrand": "Acer",
-    "reducedPrice": {
-      "amount":888,
-      "currencyCode":"$"
-    },
-    "originalPrice": {
-      "amount":999,
-      "currencyCode":"$"
-    },
-    "productImagePointer": {
-      "itemName":"https://via.placeholder.com/384x216"
-    }
+    "id": "bbb5e4ca-6a34-4ce5-9dfc-f03c7cf55a7d",
+    "title": "Blazing Saddles",
+    "releaseYear": 1974,
+    "format": "VHS",
+    "stars": "Mel Brooks, Clevon Little, Harvey Korman, Gene Wilder, Slim Pickens, Madeline Kahn"
   },
   {
-    "id":"c482b234-3a01-4500-ba10-61a16f8597ae",
-    "name":"Apple computer",
-    "category": "laptops",
-    "productName": "Apple MacOs",
-    "retailerUrl": "https://www.apple.com/macos",
-    "productBrand": "Apple",
-    "reducedPrice":{
-       "amount":1629,
-       "currencyCode":"$"
-    },
-    "originalPrice":{
-       "amount":1998,
-       "currencyCode":"$"
-    },
-    "productImagePointer":{
-       "itemName":"https://via.placeholder.com/384x216"
-    }
+    "id": "a4aca82b-3898-494a-b220-f744fd7d008c",
+    "title": "Casablanca",
+    "releaseYear": 1942,
+    "format": "DVD",
+    "stars": "Humphrey Bogart, Ingrid Bergman, Claude Rains, Peter Lorre"
   },
   {
-    "id":"0cb7bb1a-6d8c-11e8-adc0-fa7ae01bbebc",
-    "name":"Nexus 5",
-    "category":"smartPhones",
-    "description": "Nexus 5 (codenamed Hammerhead) is an Android smartphone manufactured by LG Electronics for Google. Co-developed with and marketed by Google Inc. as part of its Nexus line of flagship devices and unveiled on October 31, 2013, it is a successor to the Nexus 4. Nexus 5 served as the launch device for Android 4.4 \"KitKat\", which introduced a refreshed interface, performance improvements, increased Google Now integration, better battery life and other features.",
-    "productName":"Nexus 5 LG",
-    "retailerUrl":"https://www.apple.com/macos",
-    "productBrand":"LG",
-    "reducedPrice":{
-       "amount":200,
-       "currencyCode":"$"
-    },
-    "originalPrice":{
-       "amount":350,
-       "currencyCode":"$"
-    },
-    "productImagePointer":{
-       "itemName":"https://via.placeholder.com/384x216"
-    }
+    "id": "0cce8a6c-3981-44f4-b0d4-c3576eb20902",
+    "title": "Charade",
+    "releaseYear": 1953,
+    "format": "DVD",
+    "stars": "Audrey Hepburn, Cary Grant, Walter Matthau, James Coburn, George Kennedy"
+  },
+  {
+    "id": "eadecd8a-8730-11e8-adc0-fa7ae01bbebc",
+    "title": "Cool Hand Luke",
+    "releaseYear": 1967,
+    "format": "VHS",
+    "stars": "Paul Newman, George Kennedy, Strother Martin"
+  },
+  {
+    "id": "ef105ca2-8730-11e8-adc0-fa7ae01bbebc",
+    "title": "Butch Cassidy and the Sundance Kid",
+    "releaseYear": 1969,
+    "format": "VHS",
+    "stars": "Paul Newman, Robert Redford, Katherine Ross"
+  },
+  {
+    "id": "f2e07dee-8730-11e8-adc0-fa7ae01bbebc",
+    "title": "The Sting",
+    "releaseYear": 1973,
+    "format": "DVD",
+    "stars": "Robert Redford, Paul Newman, Robert Shaw, Charles Durning"
+  },
+  {
+    "id": "f674a0c0-8730-11e8-adc0-fa7ae01bbebc",
+    "title": "The Muppet Movie",
+    "releaseYear": 1979,
+    "format": "DVD",
+    "stars": "Jim Henson, Frank Oz, Dave Geolz, Mel Brooks, James Coburn, Charles Durning, Austin Pendleton"
+  },
+  {
+    "id": "fa9f6040-8730-11e8-adc0-fa7ae01bbebc",
+    "title": "Get Shorty",
+    "releaseYear": 1995,
+    "format": "DVD",
+    "stars": "John Travolta, Danny DeVito, Renne Russo, Gene Hackman, Dennis Farina"
+  },
+  {
+    "id": "fd8bbff6-8730-11e8-adc0-fa7ae01bbebc",
+    "title": "My Cousin Vinny",
+    "releaseYear": 1992,
+    "format": "DVD",
+    "stars": "Joe Pesci, Marrisa Tomei, Fred Gwynne, Austin Pendleton, Lane Smith, Ralph Macchio"
+  },
+  {
+    "id": "0121e8f2-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Gladiator",
+    "releaseYear": 2000,
+    "format": "Blu-Ray",
+    "stars": "Russell Crowe, Joaquin Phoenix, Connie Nielson"
+  },
+  {
+    "id": "0459ac76-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Star Wars",
+    "releaseYear": 1977,
+    "format": "Blu-Ray",
+    "stars": "Harrison Ford, Mark Hamill, Carrie Fisher, Alec Guinness, James Earl Jones"
+  },
+  {
+    "id": "09e4d814-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Raiders of the Lost Ark",
+    "releaseYear": 1981,
+    "format": "DVD",
+    "stars": "Harrison Ford, Karen Allen"
+  },
+  {
+    "id": "0e10e900-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Serenity",
+    "releaseYear": 2005,
+    "format": "Blu-Ray",
+    "stars": "Nathan Fillion, Alan Tudyk, Adam Baldwin, Ron Glass, Jewel Staite, Gina Torres, Morena Baccarin, Sean Maher, Summer Glau, Chiwetel Ejiofor"
+  },
+  {
+    "id": "12d99c70-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Hooisers",
+    "releaseYear": 1986,
+    "format": "VHS",
+    "stars": "Gene Hackman, Barbara Hershey, Dennis Hopper"
+  },
+  {
+    "id": "162a0a4a-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "WarGames",
+    "releaseYear": 1983,
+    "format": "VHS",
+    "stars": "Matthew Broderick, Ally Sheedy, Dabney Coleman, John Wood, Barry Corbin"
+  },
+  {
+    "id": "197b2134-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Spaceballs",
+    "releaseYear": 1987,
+    "format": "DVD",
+    "stars": "Bill Pullman, John Candy, Mel Brooks, Rick Moranis, Daphne Zuniga, Joan Rivers"
+  },
+  {
+    "id": "20ea49ae-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Young Frankenstein",
+    "releaseYear": 1974,
+    "format": "VHS",
+    "stars": "Gene Wilder, Kenneth Mars, Terri Garr, Gene Hackman, Peter Boyle"
+  },
+  {
+    "id": "2420f3de-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Real Genius",
+    "releaseYear": 1985,
+    "format": "VHS",
+    "stars": "Val Kilmer, Gabe Jarret, Michelle Meyrink, William Atherton"
+  },
+  {
+    "id": "27f0531a-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Top Gun",
+    "releaseYear": 1986,
+    "format": "DVD",
+    "stars": "Tom Cruise, Kelly McGillis, Val Kilmer, Anthony Edwards, Tom Skerritt"
+  },
+  {
+    "id": "2f99583c-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "MASH",
+    "releaseYear": 1970, 
+    "format": "DVD",
+    "stars": "Donald Sutherland, Elliot Gould, Tom Skerritt, Sally Kellerman, Robert Duvall"
+  },
+  {
+    "id": "32d4644c-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "The Russians Are Coming, The Russians Are Coming",
+    "releaseYear": 1966,
+    "format": "VHS",
+    "stars": "Carl Reiner, Eva Marie Saint, Alan Arkin, Brian Keith"
+  },
+  {
+    "id": "35baeabe-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Jaws",
+    "releaseYear": 1975,
+    "format": "DVD",
+    "stars": "Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary"
+  },
+  {
+    "id": "38e2b1ea-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "2001: A Space Odyssey",
+    "releaseYear": 1968,
+    "format": "DVD",
+    "stars": "Keir Dullea, Gary Lockwood, William Sylvester, Douglas Rain"
+  },
+  {
+    "id": "3c7406a6-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Harvey",
+    "releaseYear": 1950, 
+    "format": "DVD",
+    "stars": "James Stewart, Josephine Hull, Peggy Dow, Charles Drake"
+  },
+  {
+    "id": "40c56308-8731-11e8-adc0-fa7ae01bbebc",
+    "title": "Knocked Up",
+    "releaseYear": 2007,
+    "format": "Blu-Ray",
+    "stars": "Seth Rogen, Katherine Heigl, Paul Rudd, Leslie Mann"
   }
 ]
