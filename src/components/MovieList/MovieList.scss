@@ -12,6 +12,23 @@
     min-width: 1024px;
   }
 
+
+  &__table-pagination {
+
+    > div {
+      @media($maxWidthLS) {
+        padding-left: 2px;        
+      }
+    }
+
+    button {
+      @media($maxWidthLS) {
+        width: 36px;        
+      }
+    }
+
+  }
+
   .table-cell {
     box-sizing: border-box;
 
@@ -28,7 +45,7 @@
     &__utility {
       padding-left: 10px;
       padding-right: 10px;
-      text-align: center;
+      text-align: left;
       width: 130px;
     }
 

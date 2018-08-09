@@ -11,8 +11,7 @@ describe('components/MovieList', () => {
 
   const initialState = {
     movie: {
-      list: listData,
-      item: {}
+      list: listData
     }
   };
   const history = createBrowserHistory();

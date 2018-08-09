@@ -4,7 +4,7 @@ import Adapter from 'enzyme-adapter-react-16';
 import { MovieItem } from 'components/MovieItem/MovieItem.jsx';
 import listData from 'mocks/list.json';
 
-describe('containers/MovieItem', () => {
+describe('components/MovieItem', () => {
   configure({ adapter: new Adapter() });
 
   it('renders without crashing', () => {

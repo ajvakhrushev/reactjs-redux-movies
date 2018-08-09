@@ -5,12 +5,9 @@
   .movie-form {
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
     width: 100%;
     box-sizing: border-box;
-
-    @media($maxWidthLS) {
-      padding: 0 5px;
-    }
 
     &__title {
       margin: 10px 0;
@@ -20,7 +17,7 @@
 
     &__fields {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-between;
 
@@ -47,6 +44,7 @@
     &__field {
       margin: 10px 0;
       min-width: 310px;
+      max-width: 360px;
 
       @media($maxWidthXS) {
         min-width: 100%;
@@ -54,8 +52,9 @@
 
       &.field-description {
         display: block;
-        min-width: 100%;
+        min-width: 300px;
         width: 100%;
+        max-width: 640px;
 
         > div {
           min-width: 100%;

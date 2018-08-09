@@ -8,7 +8,7 @@ describe('components/MovieList', () => {
   configure({ adapter: new Adapter() });
 
   it('renders without crashing', () => {
-    shallow(<MovieList list={listData} />);
+    shallow(<MovieList data={listData} $delete={() => {}}/>);
   });
 });
 

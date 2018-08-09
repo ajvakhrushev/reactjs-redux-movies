@@ -12,7 +12,8 @@ describe('containers/App', () => {
   const initialState = {
     movie: {
       list: listData,
-      item: {}
+      item: {},
+      strategy: null
     }
   };
   const history = createBrowserHistory();

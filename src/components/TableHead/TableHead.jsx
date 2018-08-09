@@ -4,7 +4,6 @@ import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableSortLabel from '@material-ui/core/TableSortLabel';
-import Tooltip from '@material-ui/core/Tooltip';
 import 'components/TableHead/TableHead.scss';
 
 const columnData = [
@@ -41,19 +40,13 @@ export class EnhancedTableHead extends React.Component {
                 sortDirection={orderBy === column.id ? order : false}
                 className={column.className}
               >
-                <Tooltip
-                  title="Sort"
-                  placement={column.numeric ? 'bottom-end' : 'bottom-start'}
-                  enterDelay={300}
+                <TableSortLabel
+                  active={orderBy === column.id}
+                  direction={order}
+                  onClick={this.createSortHandler(column.id)}
                 >
-                  <TableSortLabel
-                    active={orderBy === column.id}
-                    direction={order}
-                    onClick={this.createSortHandler(column.id)}
-                  >
-                    {column.label}
-                  </TableSortLabel>
-                </Tooltip>
+                  {column.label}
+                </TableSortLabel>
               </TableCell>
             );
           }, this)}

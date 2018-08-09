@@ -1,14 +1,19 @@
 import React from 'react';
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import { MovieList } from 'components/MovieList/MovieList.jsx';
-import listData from 'mocks/list.json';
+import { EnhancedTableHead as TableHead } from 'components/TableHead/TableHead.jsx';
 
-describe('components/MovieList', () => {
+describe('components/TableHead', () => {
   configure({ adapter: new Adapter() });
 
   it('renders without crashing', () => {
-    shallow(<MovieList list={listData} />);
+    shallow(
+      <TableHead
+        order="asc"
+        orderBy="title"
+        onRequestSort={() => {}}
+      />
+    );
   });
 });
 
